@@ -34,8 +34,8 @@ function Home() {
                     <ChangeView center={position} />
                 </MapContainer>
             </div>
-            <div className="p-3 z-10">
-                <h3 className='font-bold text-2xl ml-10'>Discover Restaurants <br className='md:hidden' /> in your City</h3>
+            <div className="p-3 z-10 bg-blue-600 shadow-lg shadow-neutral-500">
+                <h3 className='font-bold text-2xl text-white'>Discover Restaurants <br className='md:hidden' /> in your City</h3>
                 <LocationSearch onMarkerSelect={addNewMarker} />
             </div>
 
